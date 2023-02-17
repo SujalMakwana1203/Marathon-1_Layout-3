@@ -8,9 +8,10 @@ span{
 header{
     background-image: url('main_image.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 130%;
     color: white;
-    
+    padding-left: 1.6%;
+    padding-right: 1.5%;
 }
 hr{
     background-color: #3bbddc;
@@ -43,10 +44,13 @@ hr{
 .languges a{
     text-decoration: none;
     color: white;
+    
 }
 .languges li{
 list-style-type: square;
 text-align: right;
+direction: rtl;
+margin-right: 3%;
 
 }
 .learn{
@@ -84,9 +88,59 @@ text-align: right;
     color: white;
     text-align: left;
 }
+.logo img{
+    transform: rotate(-30deg);
+}
 .coded_txt h4{
- margin-top: 10%;   
+   margin-top: 15%;
+   margin-left: -23%;
+
+}
+.coded_txt p{
+    margin-left: -23%;
+    margin-top: -5%;
 }
 .Descripsion{
-
+    background-color:  #f8faf9;
+}
+.Descripsion h5{    
+    color: #dd5362;
+    
+}
+.Descripsion a{
+    color: gray;
+    margin-left: -15%;
+    
+}
+.Descripsion h6 {    
+    
+    color: gray;
+}
+.Descripsion h3{
+    color: gray;
+}
+.Descripsion p{
+    color: lightgray;
+}
+.end_it h2{
+    color: #3bbddc;
+    text-align: center;
+}
+.end_it h3{
+    color: gray;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.end_it img{
+    margin-left: 85%;
+}
+.end_it h4, .end_it p{
+    color: lightgray;
+    
+    text-align: justify;
+    padding-left: 30%;
+    text-align: right;
+}
+.end_it h4{
+    color: gray;
 }
