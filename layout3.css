@@ -1,5 +1,6 @@
 *{
     text-transform: uppercase;
+    
 }
 span{
     font-weight: bold;
@@ -8,12 +9,12 @@ span{
 header{
     background-image: url('main_image.jpeg');
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 100%;
     color: white;
-    padding-left: 1.6%;
-    padding-right: 1.5%;
+    padding-right: 0.5%;
+    width: 100.5%;
 }
-hr{
+.first_line{
     background-color: #3bbddc;
     padding: 0.6%;
     width: 4.5%;
@@ -29,6 +30,7 @@ hr{
 .icon{
     background-color: #58565691;
     margin-bottom: 15%;
+    margin-left: -0.5%;
 }
 .icon h4{
     margin-top: -5%;
@@ -40,18 +42,30 @@ hr{
 .languges{
     background-color: #5b5a5fb6;
     padding-bottom: 10%;
+    padding-top: 5%;
+  
 }
 .languges a{
-    text-decoration: none;
     color: white;
-    
+    font-size: larger;
+    margin-right: 7%;
+
 }
+.languges a:hover{
+    text-decoration: none;
+    color: #3bbddc;
+    padding-right: 5%       ;
+}
+
 .languges li{
 list-style-type: square;
 text-align: right;
 direction: rtl;
-margin-right: 3%;
-
+margin-right: 9%;
+text-decoration: none;
+color: white;
+font-size: 120%;
+   
 }
 .learn{
     font-size: larger;
@@ -61,7 +75,7 @@ margin-right: 3%;
 .learn h2, .learn h3{
     
     font-size: 300%;
-    padding-left: 18%;
+    padding-left: 20%;
     
 }
 .learn h2{
@@ -72,10 +86,15 @@ margin-right: 3%;
     background-color: #444549ad;
     text-align: right;
     
+    
+}
+#add{
+    overflow: hidden;
 }
 
+
 .Address h5, .Address p{
-    padding-right: 5%;
+    padding-right: 9%;
 }
 .start_it h1{
     color: #dd5362;
@@ -87,6 +106,7 @@ margin-right: 3%;
     background-color: #3bbddc;
     color: white;
     text-align: left;
+   
 }
 .logo img{
     transform: rotate(-30deg);
@@ -102,6 +122,7 @@ margin-right: 3%;
 }
 .Descripsion{
     background-color:  #f8faf9;
+    padding-top: 3%;
 }
 .Descripsion h5{    
     color: #dd5362;
@@ -109,7 +130,7 @@ margin-right: 3%;
 }
 .Descripsion a{
     color: gray;
-    margin-left: -15%;
+    margin-left: -24%;
     
 }
 .Descripsion h6 {    
@@ -132,7 +153,10 @@ margin-right: 3%;
     padding-bottom: 5%;
 }
 .end_it img{
-    margin-left: 85%;
+    margin-left: 80%;
+    height: 25%;
+    width: 25%;
+    
 }
 .end_it h4, .end_it p{
     color: lightgray;
@@ -143,4 +167,11 @@ margin-right: 3%;
 }
 .end_it h4{
     color: gray;
+}
+.last{
+    padding: 1%;
+    width: 100%;
+    margin-right: 4%;
+    background-color: #dd5362;
+    margin-top: 12%;
 }
