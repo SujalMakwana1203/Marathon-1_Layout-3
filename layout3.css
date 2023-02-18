@@ -35,7 +35,7 @@ header{
 }
 .icon{
     background-color: #5856564b;
-    margin-bottom: 15%;
+    margin-bottom: 19%;
     /* margin-left: -1.4%; */
     position: relative;
 }
@@ -169,6 +169,7 @@ font-weight: 1000;
     color: lightgray;
     padding: 3%;
     text-align: center;
+    
 }
 .end_it h2{
     color: #3bbddc;
@@ -181,10 +182,9 @@ font-weight: 1000;
     padding-bottom: 5%;
 }
 .end_it img{
-    margin-left: 73%;
-    height: 25%;
-    width: 35%;
-    margin-top: -8%;
+    margin-left: 58%;
+    
+    margin-top: -18%;
 }
 .end_it h4, .end_it p{
     color: lightgray;
